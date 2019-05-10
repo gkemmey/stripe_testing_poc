@@ -1,24 +1,19 @@
-# README
+An overly simple (arguably hacky 🔪) proof of concept for how testing your stripe integration could work.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+![example_run](https://github.com/gkemmey/stripe_testing_poc/blob/master/example_run.gif)
 
-Things you may want to cover:
+### Dependencies
 
-* Ruby version
+1. [stripe-mock](https://github.com/stripe/stripe-mock) (well, specifically _[this one](https://github.com/gkemmey/stripe-mock)_):
 
-* System dependencies
+    ```
+    $ git clone git@github.com:gkemmey/stripe-mock.git
+    $ git checkout testing-poc
+    $ go install
+    ```
 
-* Configuration
+### Running
 
-* Database creation
+1. `$ bundle install`
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+2. `$ bundle exec rails test`
