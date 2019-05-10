@@ -12,6 +12,8 @@ An overly simple (arguably hacky 🔪) proof of concept for how testing your str
     $ go install
     ```
 
+2. [This change](https://github.com/gkemmey/stripe-ruby/compare/master...gkemmey:testing-poc) to [stripe-ruby](https://github.com/stripe/stripe-ruby). 👈 Handled for you by `bundle install`.
+
 ### Running
 
 1. `$ bundle install`
